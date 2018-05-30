@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'ubuntu_with_git_and_jdk_and_maven' }
+        docker { image 'maven' }
     }
 
     stages {
